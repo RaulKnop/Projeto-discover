@@ -154,3 +154,13 @@ ul li a:hover {
 footer {
   text-align: center;
 }
+
+@media (max-width = 600px) {
+  :root {
+    --bg-url: url(./assets/bg-mobile.jpg);
+  }
+
+  .light {
+    --bg-url: url(bg-mobile-light.jpg);
+  }
+}
